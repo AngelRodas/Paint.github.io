@@ -3,6 +3,7 @@
     padding: 0;
     overflow: hidden;
 }
+
 header{
 justify-content: center;
 background-color: rgb(51, 51, 78);
@@ -16,4 +17,8 @@ footer{
 text-align: center;
 color: aquamarine;
 background-color: rgb(129, 145, 100);
+}
+canvas{
+    border-radius: 5%;
+
 }
