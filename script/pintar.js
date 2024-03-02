@@ -75,7 +75,7 @@ function dibujarCirculo(evento) {
         if (y > tamahoCuadrado + 10) {
             pincel.fillStyle = 'grey';
             pincel.beginPath();
-            pincel.arc(x, y, 10, 0, 2 * Math.PI);
+            pincel.arc(x, y, 5, 0, 2 * Math.PI);
             pincel.fill();
         }
     }
