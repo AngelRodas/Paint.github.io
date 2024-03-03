@@ -83,10 +83,12 @@ function dibujarCirculo(evento) {
 
 function activarBorrador() {
     borradorActivo = true;
+    pantalla.style.cursor="url('../img/pngwing.com.png')0 20, auto";
 }
 
 function desactivarBorrador() {
     borradorActivo = false;
+    pantalla.style.cursor="url('../img/lapiz.png')0 20, auto";
 }
 
 pantalla.addEventListener('mousemove', dibujarCirculo);
